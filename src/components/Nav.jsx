@@ -6,7 +6,7 @@ import { navLinks } from '../constants';
 const Nav = () =>
 {
   return (
-      <header className='padding-x py-8 absolute z-10 w-full'>  
+      <header className='padding-x py-8 absolute z-10 w-full '>  
           <nav className='flex justify-between items-center max-container'>
               <a href="/">
                   <img
@@ -31,7 +31,7 @@ const Nav = () =>
               </ul>
 
               {/* ABove 1024 screen px size the hamburger will become invisible  */}
-              <div className='hidden max-lg:block'>
+              <div className='hidden max-lg:block '>
                   <img src={hamburger} alt="hamburger" width={25} height={25}/>
               </div>
           </nav>
