@@ -1,6 +1,6 @@
 const Suscribe = () => {
   return (
-    <div>Suscribe</div>
+    <section >Suscribe</section>
   )
 }
 
