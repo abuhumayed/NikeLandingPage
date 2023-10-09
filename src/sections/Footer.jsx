@@ -11,6 +11,7 @@ const Footer = () => {
           <p className="text-white-400 mt-6 text-base leading-7 font-montserrat sm:max-w-sm">Discover the excellence of Nike footwear at your local stores. Our authorized retailers carry a curated selection of high-quality Nike shoes</p>
           <div className="flex items-center gap-5 mt-8 ">
             {socialMedia.map((icon) => (
+              // eslint-disable-next-line react/jsx-key
               <div className="bg-white flex justify-center items-center w-12 h-12 rounded-full">
                 <img  src={icon.src} alt={icon.alt} width={24} height={24} />
               </div>
